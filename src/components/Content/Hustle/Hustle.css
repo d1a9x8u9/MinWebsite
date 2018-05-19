@@ -1,0 +1,44 @@
+.Hustle {
+    /* background-image: url('../../../assets/hustle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: rgb(216, 216, 216);
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    width: 100%;
+    color: darkslategray;
+    align-content: center;
+    justify-content: space-evenly;
+    font-size: 15vh;
+    font-family: 'Oswald', sans-serif;
+    border: 1vh whitesmoke solid;
+    border-left: 2vh whitesmoke solid;
+    border-top: 2vh whitesmoke solid;
+}
+
+.HustleItemsLeft {
+    padding: 3vh;
+    text-align: right;
+    padding: 0 10vh 0 5vh;
+    width: 50%;
+    border-right: 2vh solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+.HustleItemsLeft:hover {
+
+}
+
+.HustleItemsRight {
+    color: black;
+    font-size: 4vh;
+    width: 50%;
+    padding: 5vh;
+    display: flex;
+    flex-flow: column nowrap;
+    border-right: 2vh solid darkslategray;
+}

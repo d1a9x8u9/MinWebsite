@@ -1,0 +1,55 @@
+.Projects {
+    background-image: url('./../../../assets/desk.jpg');
+    width: 100%;
+    height: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-between;
+    padding: 0 10vh;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Header {
+    padding: 2vh 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderItem:hover {
+    border-bottom: .10vh solid white;
+    color: rgb(223, 223, 223);
+}
+
+.LogoItems {
+
+}
+
+.Title {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    font-size: 18vh;
+    margin: 10vh 5vh;
+    justify-content: right;
+    line-height: 80%;
+}
+
+.TitleRHS {
+    width: 50%;
+}
+
+.TitleRHS:hover {
+    color: rgb(223, 223, 223);
+    text-decoration: line-through black solid;
+}
+
+.TitleWord {
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+}
