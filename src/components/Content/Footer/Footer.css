@@ -1,0 +1,21 @@
+.Footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.FooterInfo {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin: 1vh;
+    align-content: center;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
