@@ -32,23 +32,24 @@
     flex-flow: column nowrap;
     box-sizing: border-box;
     font-size: 18vh;
-    margin: 10vh;
-    justify-content: center;
+    margin: auto;
+    text-align: right;
     align-content: right;
-    align-items: center;
+    align-items: right;
     line-height: 80%;
 }
 
 .TitleRHS {
-    width: 50%;
     transition: color .5s;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: left;
+    justify-content: right;
 }
 
 .TitleRHSSubText {
     font-size: 5vh;
+    margin: 2vh 0 0 0;
+    line-height: 90%;
     font-family: 'Source Sans Pro', sans-serif;
 }
 

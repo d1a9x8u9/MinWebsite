@@ -3,21 +3,20 @@
     box-sizing: border-box;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
     align-content: center;
-    justify-content: space-evenly;
     height: auto;
     width: 100%;
     color: darkslategray;
     font-family: 'Oswald', sans-serif;
-    /* border: 1vh whitesmoke solid; */
 }
 
 .WhoAndLegacyItemsLeft {
     font-size: 10vh;
     text-align: center;
-    padding: 12vh 10vh 0 5vh;
+    word-wrap: break-word;
+    padding: 12vh 10vh 0 10vh;
     width: 50%;
+    height: auto;
     border-right: 2vh solid whitesmoke;
     border-left: 2vh solid rgb(29, 29, 29);
     background-color: whitesmoke;
