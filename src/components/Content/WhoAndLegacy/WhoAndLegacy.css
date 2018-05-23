@@ -9,15 +9,14 @@
     height: auto;
     width: 100%;
     color: darkslategray;
-    font-size: 15vh;
     font-family: 'Oswald', sans-serif;
     /* border: 1vh whitesmoke solid; */
 }
 
 .WhoAndLegacyItemsLeft {
-    padding: 3vh;
+    font-size: 10vh;
     text-align: center;
-    padding: 0 10vh 0 5vh;
+    padding: 12vh 10vh 0 5vh;
     width: 50%;
     border-right: 2vh solid whitesmoke;
     border-left: 2vh solid rgb(29, 29, 29);
@@ -33,4 +32,34 @@
     display: flex;
     flex-flow: column nowrap;
     border-right: 2vh solid rgb(29, 29, 29);
+}
+
+@media only screen and (max-width: 800px) {
+    .WhoAndLegacy {
+        height: auto;
+        flex-flow: column nowrap;
+    }
+
+    .WhoAndLegacyItemsLeft {
+        font-size: 6vh;
+        width: 100%;
+        height: auto;
+        border: none;
+        padding: 1vh;
+        text-align: center;
+        border-left: 1vh solid rgb(29, 29, 29);
+        border-right: 1vh solid rgb(29, 29, 29);
+
+    }
+
+    .WhoAndLegacyItemsRight {
+        width: 100%;
+        height: auto;
+        font-size: 4vh;
+        border: none;
+        padding: 1vh;
+        text-align: center;
+        border-left: 1vh solid rgb(29, 29, 29);
+        border-right: 1vh solid rgb(29, 29, 29);
+    }
 }

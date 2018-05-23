@@ -7,9 +7,9 @@ class Footer extends React.Component {
         return (
             <div className={classes.Footer}>
                <div className={classes.FooterInfo}>
-                    <div>FAQ</div>
-                    <div>About us</div>
-                    <div>Contact</div>
+                    <a href="#">FAQ</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
                </div>
             </div>
         )
