@@ -66,8 +66,8 @@
 
 @media only screen and (max-width: 800px) {
     .HeaderAndTitle {
-        height: auto;
-        background-size: inherit;
+        height: cover;
+        background-size: auto;
         background-position-x: -20vh;
         padding: 1vh 3vh;
     }
@@ -79,8 +79,8 @@
     }
 
     .Title {
-        font-size: 8vh;
-        margin: 6vh 0;
+        font-size: 10vh;
+        margin: auto;
         justify-content: center;
         align-content: center;
         align-items: center;
