@@ -9,7 +9,7 @@ class HeaderAndTitle extends React.Component {
                 <div className={classes.Header}>
                     <a href="#" className={classes.HeaderItem}>Daniel's Demo</a>
                     <div className={classes.LogoItems}>
-                        <span>LOGO HERE </span>
+                        <a href="https://github.com/d1a9x8u9/MinWebsite" alt="github">Github</a>
                     </div>
                 </div>
                 <div className={classes.Title}>
